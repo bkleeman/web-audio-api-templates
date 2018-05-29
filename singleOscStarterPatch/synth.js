@@ -180,14 +180,5 @@ $(document).keyup(function(e) {
     case 80: // P
       noteOff(); // D#4
     break;
-    
   }
 }); // end keydown event.
-
-
-
-
-
-
-
-
