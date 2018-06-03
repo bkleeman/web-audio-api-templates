@@ -36,7 +36,7 @@ $(function() {
   });
   
   qSlider = $("#qSlider").slider({
-    max: 1000,
+    max: 100,
     min: 1,
     orientation: 'vertical',
     value: 0,
