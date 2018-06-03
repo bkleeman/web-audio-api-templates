@@ -129,68 +129,132 @@ $(function() {
 
       case 65: // A
         noteOn(130.8); // C3
+        $("#a").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 83: // S
         noteOn(146.8); // D3
+        $("#s").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 68: // D
         noteOn(164.8); // E3
+        $("#d").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 70: // F
         noteOn(174.6); // F3
+        $("#f").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 71: // G
         noteOn(196.0); // G3
+        $("#g").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 72: // H
         noteOn(220.0); // A3
+        $("#h").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 74: // J
         noteOn(246.9); // B3
+        $("#j").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 75: // K
         noteOn(261.6); // C4
+        $("#k").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 76: // L
         noteOn(293.7); // D4
+        $("#l").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       // Black Keys
 
       case 87: // W
         noteOn(138.6); // C#3
+        $("#w").css({
+          border: "1px solid",
+          borderColor: "blue",
+        });
       break;
 
       case 69: // E
         noteOn(155.6); // D#3
+        $("#e").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 84: // T
         noteOn(185.0); // F#3
+        $("#t").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 89: // Y
         noteOn(207.7); // G#3
+        $("#y").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 85: // U
         noteOn(233.1); // A#3
+        $("#u").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 79: // O
         noteOn(277.2); // C#4
+        $("#o").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
       case 80: // P
         noteOn(311.1); // D#4
+        $("#p").css({
+          border: "1px solid black",
+          borderColor: "blue",
+        });
       break;
 
     }
@@ -206,68 +270,132 @@ $(function() {
 
       case 65: // A
         noteOff(); // C3
+        $("#a").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 83: // S
         noteOff(); // D3
+        $("#s").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 68: // D
         noteOff(); // E3
+        $("#d").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 70: // F
         noteOff(); // F3
+        $("#f").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 71: // G
         noteOff(); // G3
+        $("#g").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 72: // H
         noteOff(); // A3
+        $("#h").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 74: // J
         noteOff(); // B3
+        $("#j").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 75: // K
         noteOff(); // C4
+        $("#k").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 76: // L
         noteOff(); // D4
+        $("#l").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       // Black Keys
 
       case 87: // W
         noteOff(); // C#3
+        $("#w").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 69: // E
         noteOff(); // D#3
+        $("#e").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 84: // T
         noteOff(); // F#3
+        $("#t").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 89: // Y
         noteOff(); // G#3
+        $("#y").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 85: // U
         noteOff(); // A#3
+        $("#u").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 79: // O
         noteOff(); // C#4
+        $("#o").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
 
       case 80: // P
         noteOff(); // D#4
+        $("#p").css({
+          borderStyle: "solid",
+          borderColor: "gray"
+        });
       break;
     }
   }); // end keydown event.
@@ -285,10 +413,10 @@ $(function() {
   $(document).keydown(function(e) {
     console.log(e);
     switch (e.keyCode) {
-      case 80: // P
+      case 81: // Q
         panic();
       break;
     }
-  });
+  }); // end panic keydown
 
 }); //end jQuery function
